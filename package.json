@@ -1,14 +1,14 @@
 {
   "name": "twitch-rank",
-  "version": "1.0.0",
-  "description": "A simple Node JS library to get the most viewed Twitch streams based on language, country, or category",
+  "version": "1.0.1",
+  "description": "A Node JS library to get the most viewed Twitch streams based on language, country, or category",
   "main": "src/index.js",
-  "homepage": "https://github.com/juliogarciape/twitch-rank",
+  "homepage": "https://github.com/juliogarciape/twitch-rank#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
-    "node": ">=10.0.0"
+    "node": ">=8.0.0"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,11 @@
   "keywords": [
     "twitch",
     "ranking",
-    "top"
+    "top",
+    "streams",
+    "category",
+    "language",
+    "country"
   ],
   "author": "Julio Cesar Garcia",
   "license": "ISC",

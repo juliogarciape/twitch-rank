@@ -1,7 +1,5 @@
 //! The key is the name of the streamer and the value is the id. The username can change so it is better to search by id
 
-//! 
-
 const peruvianStreamers = {
     "ElZeein": "27589421",
     "TheDaarick28": "67398168",
@@ -16,54 +14,72 @@ const peruvianStreamers = {
     "CapitanGatoo": "596583418",
     "Valerihe": "582076854",
     "LuisOrmenoa27": "175779148",
-    "Nissaxter": "42351942",
     "leaosg": "161481811",
+    "pgod": "198434884",
+    "ZekaGamerss": "261778616",
+    "kingleon_oficial": "616957545",
+    "Armstraffic": "619975410",
+    "mishifuxddd": "144827749",
+    "xc3jo": "137298121",
+    "Luisardito": "581696634"
 }
 
-const ARGENTINE_STREAMERS = [
-    'elspreen',
-    'goncho',
-    'davooxeneize',
-    'brunenger',
-    'carreraaa',
-    'lacobraaa',
-    'farfadoxvevo',
-    'coscu',
-    'momoladinastia',
-    'robleis',
-    'agustinunaplay8'
-];
+const argentineStreamers = {
+    "ElSpreen": "157658336",
+    "goncho": "114635439",
+    "davooxeneize": "499538703",
+    "Brunenger":"94757023",
+    "Carreraaa":"106820088",
+    "LACOBRAAA":"97241758",
+    "FarfadoxVEVO":"224818031",
+    "BenitoSDR":"524208313",
+    "luquitarodriguez":"203799202",
+    "LaAgusneta":"149439155",
+    "coscu":"36473331",
+    "momoladinastia": "145908612",
+    "Robleis": "199811071",
+    "AgustinUnaplay8": "143179777",
+    "SrAmilcar": "485682941",
+    "Crisgreen": "93818855",
+    "NimuVT": "495899004",
+    "Lokonazo1": "38808314"
+};
 
-const COLOMBIAN_STREAMERS = [
-    'westcol',
-    'pelicanger',
-    'juansguarnizo',
-    'emikukis'
-]
+const colombianStreamers = {
+    "WestCOL": "168732568",
+    "Pelicanger": "464285047",
+    "juansguarnizo": "121510236",
+    "Emikukis": "272067658",
+    "maryblog": "215480115"
+}
 
-const MEXICAN_STREAMERS = [
-    'elmariana',
-    'roier',
-    'rivers_gg',
-    'vickypalami',
-    'aldo_geo',
-    'elded',
-    'zilverk',
-    'renrize',
-    'conterstine',
-    'kendomurft',
-    'mym_alkapone',
-    'arigameplays',
-    'soypan'
-]
+const mexicanStreamers = {
+    "ElMariana":"496795673",
+    "vickypalami":"211121982",
+    "rivers_gg":"734906922",
+    "Roier":"54748186",
+    "aldo_geo":"119795835",
+    "Conterstine":"49914195",
+    "RenRize":"272168411",
+    "ZilverK":"45736373",
+    "elded":"76385901",
+    "kendomurft":"234393024",
+    "MYM_ALKAPONE":"31478096",
+    "AriGameplays":"70357283",
+    "SoyPan":"57993352",
+    "MissaSinfonia":"46094501",
+    "RobertoCein":"66302775",
+    "ElFedelobo":"69955030",
+    "CrystalMolly":"126750144",
+    "rociodta":"181293545"
+}
 
-//! gdgfdgf
 
 const TWITCH_STREAMERS = {
-    'peru': peruvianStreamers,
-    'argentina': ARGENTINE_STREAMERS,
-    'mexico': MEXICAN_STREAMERS,
-    'colombia': COLOMBIAN_STREAMERS
+    'pe': peruvianStreamers,
+    'ar': argentineStreamers,
+    'mx': mexicanStreamers,
+    'co': colombianStreamers
 }
 
 module.exports = TWITCH_STREAMERS;
